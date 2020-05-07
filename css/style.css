@@ -1,0 +1,141 @@
+﻿/*===================   Body and Html Settings  ===================*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 400;
+}
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+html {
+	font-size: 100%;
+}
+/*===================   Cover background image  ===================*/
+
+#wrap {
+	background: url(../images/3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+	min-height: 740px;
+	display: table;
+	position: relative;
+}
+/*===================   Heading 1 settings  ===================*/
+
+h1 {
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+/*===================   Applying color questions  ===================*/
+
+#questionsInBlack {
+	color: black;
+}
+/*===================   Jumbotron setting  ===================*/
+
+.jumbotron {
+	background-color: #e9ecef00;
+	margin-top: 12rem;
+}
+.jambotron{
+	margin: 0;
+}
+/*===================   Applying a special color on the span  ===================*/
+
+span#africa {
+	font-size: 5rem;
+	color: goldenrod;
+}
+/*===================   Applying background color on the main column  ===================*/
+
+div .line {
+	border: 1px solid blue;
+	border-radius: 1px;
+	background-color: #D3D3D3;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 2rem;
+}
+/*==========================   Styling the submit button  ============================*/
+
+.btn-primary {
+	color: #fff;
+	background-color: #991623;
+	border-color: #cddf37;
+}
+/*===================   Applying background color on offset column  ===================*/
+
+.offsetColor {
+	background-color: #343A40;
+}
+/*========================   Styling the horizontal rule  ============================*/
+hr {
+	overflow: visible;
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+hr:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}
+/*======================== APPLYING COLOR TO ANSWERS  ============================*/
+.wronganswerColor
+{
+	color: red;
+	text-decoration:line-through; 
+	font-size: 1rem;
+}
+.correctAnswerColor
+{
+	color: green;
+	font-size: 1rem;
+}
+.guesAnswerColor
+{
+	color:  blue; 
+	font-size: 1rem;
+}
+#reportHeading
+{
+	text-align: center;
+	border:1px solid black;
+	padding:1rem; 
+	margin-bottom:1rem;
+}
+/*===========================  Styling Footer ======================================*/
+.site-footer {
+	background: #2d3640;
+	padding: 20px 0;
+}
+a
+{
+  text-decoration: none;
+}
+/*=======Applying new background image on mobile devises using media query technics=============*/
+@media (max-width:767px) {
+	#wrap {
+		background: url(../images/2.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 100%;
+		width: 100%;
+		min-height: 740px;
+		display: table;
+		position: relative;
+	}
+}
