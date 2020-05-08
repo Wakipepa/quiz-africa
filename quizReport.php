@@ -25,8 +25,6 @@ function quizReport($Questions,$Answers,$counter)
                     echo "<a class='btn btn-success btn-lg' href='quiz.php' role='button'>Try again</a>";
                    echo" <br>";
                    echo" <br>";
-                   echo  "<a href='https://www.facebook.com/sharer/sharer.php?u=URLENCODED_URL&t=TITLE'
-                   onclick='javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;'
-                   target='_blank' title='Share on Facebook'><p>Challenge your friends</p></a> " ; 
+                   echo  "<a href='https://www.facebook.com/sharer/sharer.php?u=example.org' target='_blank'>Share on Facebook</a> " ; 
                   
                 }
