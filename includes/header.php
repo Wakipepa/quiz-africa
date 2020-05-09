@@ -11,7 +11,7 @@
     
      <!--===================================== BOOTSTRAP CSS AND CUSTOM CSS ====================--> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <!--===================================== ANIMATED CDN====================--> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <!--===================================== JUMBOTRON CONTAINING THE HEADING ====================--> 
     <div class="jumbotron jumbotron-fluid jambotron bg-dark text-white wow pulse">
       <div class="container text-center">
-        <h1 class="display-4">QUIZ QUESTIONS ON AFRICA</h1>
+        <h2 class="display-4">QUIZ QUESTIONS ON AFRICA</h2>
         <p class="lead">HOW WELL YOU KNOW YOUR CONTINENT</p>
       </div>
     </div>

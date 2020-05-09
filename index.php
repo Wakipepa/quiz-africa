@@ -25,7 +25,7 @@
                  <div class="container text-center text-white wow hinge">
                     <h1> QUIZ QUESTIONS ON <br><span id="africa">AFRICA </span></h1>
                     <p>HOW WELL YOU KNOW YOUR CONTINENT</p>
-                    <a class="btn btn-primary btn-lg" href="quiz.php" role="button">TAKE YOUR QUIZ</a>
+                    <a class="btn btn-primary btn-lg" href="includes/quiz.php" role="button">TAKE YOUR QUIZ</a>
                  </div>
               </div>
             </div>
