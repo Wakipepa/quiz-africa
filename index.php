@@ -22,7 +22,7 @@
            <div class="col-sm-6"></div>
            <div class="col-sm-6">
               <div class="jumbotron">
-                 <div class="container text-center text-white wow hinge">
+                 <div class="container text-center text-white wow bounce">
                     <h1> QUIZ QUESTIONS ON <br><span id="africa">AFRICA </span></h1>
                     <p>HOW WELL YOU KNOW YOUR CONTINENT</p>
                     <a class="btn btn-primary btn-lg" href="includes/quiz.php" role="button">TAKE YOUR QUIZ</a>
